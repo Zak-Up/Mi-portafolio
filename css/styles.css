@@ -138,7 +138,7 @@ body.light-theme{
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   font-weight: bold;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 
@@ -406,7 +406,7 @@ body.light-theme{
   bottom: 1rem;
   background-color: hsla(var(--second-hue), 32%, 16%, .8);
   width: 90%;
-  border-radius: 4rem;
+  border-radius: .5rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
   transition: .4s;
@@ -534,7 +534,7 @@ body.light-theme{
   background-color: var(--container-color);
   color: var(--body-font);
   padding: .50rem;
-  border-radius: .25rem;
+  /* border-radius: .25rem; */
   display: flex;
   font-size: 1rem;
   transition: .4s;
@@ -579,7 +579,7 @@ body.light-theme{
   background-color: var(--first-color);
   color: var(--body-color);
   padding: .75rem 1rem;
-  border-radius: .5rem;
+  /* border-radius: .5rem; */
   font-weight: var(--font-medium);
   transition: .4s;
 }
@@ -623,7 +623,7 @@ body.light-theme{
 
 .about__img{
   width: 220px;
-  border-radius: 1.5rem;
+  /* border-radius: 0.5rem; */
   justify-self: center;
 }
 
@@ -640,7 +640,7 @@ body.light-theme{
 
 .about__box{
   background-color: var(--container-color);
-  border-radius: .75rem;
+  /* border-radius: .75rem; */
   padding: .75rem .5rem;
   overflow: hidden;
   transition: all 400ms ease;
@@ -786,7 +786,7 @@ body.light-theme{
   position: relative;
   background-color: var(--body-color);
   padding: 4.5rem 1.5rem 2.5rem;
-  border-radius: 1.5rem;
+  /* border-radius: 1.5rem; */
 }
 
 .services__modal-title,
@@ -857,7 +857,7 @@ body.light-theme{
   color: var(--title-color);
   padding: .25rem .75rem;
   font-weight: var(--font-medium);
-  border-radius: .5rem;
+  /* border-radius: .5rem; */
   transition: all 400ms ease;
 }
 
@@ -878,7 +878,7 @@ body.light-theme{
 }
 
 .work__img{
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
   margin-bottom: .75rem;
 }
 
@@ -1030,7 +1030,7 @@ body.light-theme{
   color: var(--text-color);
   outline: none;
   padding: 1.5rem;
-  border-radius: .75rem;
+  /* border-radius: .75rem; */
   z-index: 1;
 }
 
@@ -1111,13 +1111,11 @@ body.light-theme{
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar{
   width:  .6rem;
-  border-radius: .5rem;
   background-color: hsl(var(--body-color), 8%, 38%);
 }
 
 ::-webkit-scrollbar-thumb{
   background-color: rgb(4, 83, 109);
-  border-radius: .5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover{
@@ -1606,7 +1604,7 @@ body.light-theme{
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   font-weight: bold;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 
@@ -1756,7 +1754,7 @@ body.light-theme{
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   font-weight: bold;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 
