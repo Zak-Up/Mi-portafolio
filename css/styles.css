@@ -684,12 +684,12 @@ body.light-theme{
   padding: 1.5rem;
   border-radius: 1.25rem;
   overflow: hidden;
-  transition: all 400ms ease;
+  /* transition: all 400ms ease; */
 }
 
-.skills__content:hover{
+/* .skills__content:hover{
   transform: scale(1.05);
-}
+} */
 
 .skills__title{
   font-size: var(--normal-font-size);
@@ -734,7 +734,7 @@ body.light-theme{
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
-  animation: scroll 3s infinite;
+  /* animation: scroll 3s infinite; */
 }
 
 .services__card{
