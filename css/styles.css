@@ -623,7 +623,7 @@ body.light-theme{
 
 .about__img{
   width: 220px;
-  /* border-radius: 0.5rem; */
+  border-radius: 5px;
   justify-self: center;
 }
 
@@ -1102,7 +1102,7 @@ body.light-theme{
 
 .footer__copy{
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 2rem;
   color: var(--text-color);
   text-align: center;
   font-size: var(--font-medium);
