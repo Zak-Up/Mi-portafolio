@@ -129,7 +129,7 @@ body.light-theme{
   --title-color: hsl(var(--second-hue), 15%, 15%);
   --text-color: hsl(var(--second-hue), 8%, 35%);
   --body-color: hsl(var(--second-hue), 100%, 99%);
-  --container-color: #fff;
+  --container-color: rgb(255, 255, 255);
 }
 
 /**----======SHOT GAME=====-------*/
@@ -276,6 +276,22 @@ body.light-theme{
   background-color: black;
 }
 
+.light-theme .inicio {
+  margin-left: 50%;
+  color: rgb(12, 1, 1);
+  font-size: 12px;
+}
+
+.light-theme .contacto {
+  color: rgb(5, 0, 0);
+  font-size: 12px;
+}
+
+.light-theme .proyectos {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+}
+
 .light-theme #gameFrame{
   background-color: rgb(0, 1, 9);
 }
@@ -395,6 +411,7 @@ body.light-theme{
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: .4s;
+  font-size: 22px;
 }
 
 .nav__logo:hover{
@@ -607,6 +624,21 @@ body.light-theme{
   box-shadow: inset 0 0 5px aqua, 0 0 5px aqua;
   padding: 0.5rem; */
   text-shadow: 0 0 3px aqua, 0 0 2px aqua;
+}
+
+.inicio{
+  margin-left: 50%;
+  color: #fff;
+  font-size: 12px;
+}
+
+.contacto{
+  color: #fff;
+  font-size: 12px;
+}
+.proyectos{
+  color: #fff;
+  font-size: 12px;
 }
 
 
@@ -1438,6 +1470,7 @@ body.light-theme{
     margin-top: 3rem;
     
   }
+
   .enemy {
     width: 85px;
     height: 200px;
@@ -1991,6 +2024,19 @@ body.light-theme{
     border-radius: .5rem;
   }
 }
+
+@media screen and (max-width: 576px){
+  .inicio{
+    display: none;
+  }
+  .contacto{
+    display: none;
+  }
+  .proyectos{
+    display: none;
+  }
+}
+
 
 
 

@@ -23,7 +23,16 @@
   <!--                  HEADER                       -->
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#about" class="nav__logo zaky__neon"> &#169; Zak Up</a>
+      <a href="#about" class="nav__logo zaky__neon"> Zak Up</a>
+      <a href="#home" class="inicio">
+        <p>HOME</p>
+      </a>
+      <a href="#work" class="proyectos">
+        <p>PROYECTOS</p>
+      </a>
+      <a href="#contact" class="contacto">
+        <p>CONTACTO</p>
+      </a>
 
       <div class="nav__menu">
         <ul class="nav__list">
@@ -88,19 +97,22 @@
 
 
         <!-- ========== SHOT GAME ========== -->
-        <div class="body__shot" inClick="myGunSound.play" id="gameFrame">
-          <div id="healthBar"></div>
+        <div>
+          <div class="body__shot" inClick="myGunSound.play" id="gameFrame">
+            <div id="healthBar"></div>
 
-          <div class="enemy " id="enemy1" onclick="iShoot(this)"></div>
-          <div class="enemy " id="enemy2" onclick="iShoot(this)"></div>
-          <div class="enemy " id="enemy3" onclick="iShoot(this)"></div>
-          <div class="enemy" id="enemy4" onclick="iShoot(this)"></div>
-          <div class="enemy dead " id="enemy5" onclick="iShoot(this)"></div>
+            <div class="enemy " id="enemy1" onclick="iShoot(this)"></div>
+            <div class="enemy " id="enemy2" onclick="iShoot(this)"></div>
+            <div class="enemy " id="enemy3" onclick="iShoot(this)"></div>
+            <div class="enemy" id="enemy4" onclick="iShoot(this)"></div>
+            <div class="enemy dead " id="enemy5" onclick="iShoot(this)"></div>
 
-          <button class="buttonn" onclick="newGame()"> Click! </button>
+            <button class="buttonn" onclick="newGame()"> Click! </button>
+          </div>
+
+          <h6 class="shot__p">Esta es una pequeña demostración de lo que puede hacer CSS y JavaScript</h6>
         </div>
 
-        <h6 class="shot__p">Esta es una pequeña demostración de lo que puede hacer CSS y JavaScript</h6>
 
 
         <!-- ========== SHOT GAME ========== -->
