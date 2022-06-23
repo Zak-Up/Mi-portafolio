@@ -907,6 +907,17 @@ body.light-theme {
   visibility: visible;
 }
 
+.web__designer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.web__designer img{
+  border-radius: 50%;
+  max-width: 300px;
+}
+
 /*=============== WORK ===============*/
 .work__container {
   padding-top: 1rem;
@@ -1121,6 +1132,12 @@ body.light-theme {
 
 .contact__form-area textarea {
   resize: none;
+}
+
+.contact__img{
+  max-width: 60px;
+  border-radius: 10px;
+  margin-left: 48%;
 }
 
 
@@ -1390,6 +1407,13 @@ body.light-theme {
     margin-top: 1rem;
     margin-left: 2.5rem;
   }
+
+    .contact__img {
+      max-width: 60px;
+      border-radius: 10px;
+      margin-left: 40%;
+      margin-bottom: 1rem;
+    }
 }
 
 
@@ -1541,6 +1565,13 @@ body.light-theme {
     margin-top: 1rem;
     margin-left: 2rem;
   }
+
+    .contact__img {
+      max-width: 60px;
+      border-radius: 10px;
+      margin-left: 42%;
+      margin-bottom: 2rem;
+    }
 }
 
 /* For medium devices */
@@ -1722,6 +1753,13 @@ body.light-theme {
     margin: 0 auto;
   }
 
+     .contact__img {
+       max-width: 60px;
+       border-radius: 10px;
+       margin-left: 45%;
+       margin-bottom: 2rem;
+     }
+
 }
 
 
@@ -1885,6 +1923,13 @@ body.light-theme {
     justify-content: center;
     column-gap: 3rem;
   }
+
+     .contact__img {
+       max-width: 60px;
+       border-radius: 10px;
+       margin-left: 46%;
+       margin-bottom: 2rem;
+     }
 
 }
 
@@ -2068,7 +2113,7 @@ body.light-theme {
   }
 
   .section__title {
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .nav {
@@ -2167,6 +2212,13 @@ body.light-theme {
     padding: .4rem;
     border-radius: .5rem;
   }
+
+    .contact__img {
+      max-width: 60px;
+      border-radius: 10px;
+      margin-left: 48%;
+      margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
