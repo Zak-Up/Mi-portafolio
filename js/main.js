@@ -1,3 +1,4 @@
+
 /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
     const header = document.getElementById('header')
@@ -136,6 +137,8 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay: 50})
 sr.reveal(`.home__social, .home__scroll`, {delay: 600, origin: 'bottom'})
+
+
 
 
 /*----====== GAME SHOT ======-----*/
