@@ -305,19 +305,19 @@ body.light-theme {
 
 .light-theme .inicio {
   margin-left: 50%;
-  color: var(--title-color);
+  color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
 }
 
 .light-theme .contacto {
-  color: var(--title-color);
+  color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
 }
 
 .light-theme .proyectos {
-  color: var(--title-color);
+  color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
 }
@@ -449,7 +449,7 @@ body.light-theme {
 }
 
 .nav__menu {
-  position: fixed;
+  position: fixed !important; 
   bottom: 1rem;
   background-color: hsla(var(--second-hue), 32%, 16%, .8);
   width: 90%;
