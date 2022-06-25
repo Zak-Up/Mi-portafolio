@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -529,7 +530,10 @@ body.light-theme {
 }
 
 .home__name {
-  font-size: var(--biggest-font-size);
+  font-size: 22px;
+  font-family: 'Press Start 2P';
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .home__img {
@@ -1211,8 +1215,9 @@ body.light-theme {
 
 .shot__p {
   text-align: center;
-  font-size: 0.50rem;
+  font-size: 5px;
   margin-top: 1rem;
+  font-family: 'Press Start 2P';
 }
 
 
