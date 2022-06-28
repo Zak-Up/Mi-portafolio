@@ -77,78 +77,86 @@
 
     </nav>
   </header>
+
   <!--                   MAIN                        -->
   <main class="main">
-    <!-- Home -->
-    <section class="home section" id="home">
+    <div class="mainest" id="mainest">
+      <!-- Home -->
+      <section class="home section" id="home">
 
-      <div class="home__container container grid">
-        <div class="prueba">
-          <div class="home__data">
-            <span class="home__greeting">Hola! Soy,</span>
-            <h1 class="home__name">Andres Restrepo</h1>
-            <h3 class="home__education">Frontend Developer Junior</h3>
+        <div class="home__container container grid">
+          <div class="prueba">
+            <div class="home__data">
+              <span class="home__greeting">Hola! Soy,</span>
+              <h1 class="home__name">Andres Restrepo</h1>
+              <h3 class="home__education">Frontend Developer Junior</h3>
 
-            <div class="home__buttons">
-              <a href="./archivos/ANDRES RESTREPO.pdf" download="Andres-RestrepoHV.pdf" class="button button--ghost">
-                Descargar CV
-              </a>
-              <a href="#about" class="button">Sobre mi</a>
+              <div class="home__buttons">
+                <a href="./archivos/ANDRES RESTREPO.pdf" download="Andres-RestrepoHV.pdf" class="button button--ghost">
+                  Descargar CV
+                </a>
+                <a href="#about" class="button">Sobre mi</a>
+              </div>
+            </div>
+
+
+            <!-- ========== SHOT GAME ========== -->
+            <div class="shot_prueba">
+              <div class="body__shot" inClick="myGunSound.play" id="gameFrame">
+                <div id="healthBar"></div>
+
+                <div class="enemy " id="enemy1" onclick="iShoot(this)"></div>
+                <div class="enemy " id="enemy2" onclick="iShoot(this)"></div>
+                <div class="enemy " id="enemy3" onclick="iShoot(this)"></div>
+                <div class="enemy" id="enemy4" onclick="iShoot(this)"></div>
+                <div class="enemy dead " id="enemy5" onclick="iShoot(this)"></div>
+
+                <button class="buttonn" onclick="newGame()"> Click! </button>
+              </div>
+
+              <div class="h6scroll">
+                <h6 class="shot__p">Esta es una pequeña demostración de CSS y JavaScript</h6>
+              </div>
+
+
             </div>
           </div>
+
+
+
+
 
 
           <!-- ========== SHOT GAME ========== -->
-          <div class="shot_prueba">
-            <div class="body__shot" inClick="myGunSound.play" id="gameFrame">
-              <div id="healthBar"></div>
 
-              <div class="enemy " id="enemy1" onclick="iShoot(this)"></div>
-              <div class="enemy " id="enemy2" onclick="iShoot(this)"></div>
-              <div class="enemy " id="enemy3" onclick="iShoot(this)"></div>
-              <div class="enemy" id="enemy4" onclick="iShoot(this)"></div>
-              <div class="enemy dead " id="enemy5" onclick="iShoot(this)"></div>
+          <!-- ==========HOME SOCIAL ========= -->
 
-              <button class="buttonn" onclick="newGame()"> Click! </button>
-            </div>
 
-            <h6 class="shot__p">Esta es una pequeña demostración de CSS y JavaScript</h6>
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/andres-restrepo-salas-a903b639/" class="home__social-link"
+              target="_blank">
+              <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="https://github.com/Zak-Up" class="home__social-link" target="_blank">
+              <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=573133990387&text=Hello, more information!"
+              class="home__social-link" target="_blank">
+              <i class='bx bxl-whatsapp'></i>
+            </a>
+            <a href="mailto:andresjr195@hotmail.com" class="home__social-link" target="_blank">
+              <i class='bx bx-message-square-detail'></i>
+            </a>
           </div>
+
+          <!-- <a href="#about" class="home__scroll">
+                          <i class='bx bx-mouse home__scroll-icon'></i>
+                          <span class="home__scroll-name">Scroll Down</span>
+                      </a> -->
         </div>
+      </section>
+    </div>
 
-
-
-
-
-
-        <!-- ========== SHOT GAME ========== -->
-
-        <!-- ==========HOME SOCIAL ========= -->
-
-
-        <div class="home__social">
-          <a href="https://www.linkedin.com/in/andres-restrepo-salas-a903b639/" class="home__social-link"
-            target="_blank">
-            <i class='bx bxl-linkedin-square'></i>
-          </a>
-          <a href="https://github.com/Zak-Up" class="home__social-link" target="_blank">
-            <i class='bx bxl-github'></i>
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=573133990387&text=Hello, more information!"
-            class="home__social-link" target="_blank">
-            <i class='bx bxl-whatsapp'></i>
-          </a>
-          <a href="mailto:andresjr195@hotmail.com" class="home__social-link" target="_blank">
-            <i class='bx bx-message-square-detail'></i>
-          </a>
-        </div>
-
-        <!-- <a href="#about" class="home__scroll">
-                    <i class='bx bx-mouse home__scroll-icon'></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                </a> -->
-      </div>
-    </section>
 
 
 
@@ -905,6 +913,9 @@
   <script src="https://cdn.js.cloudflare.com/ajax/libs/gsap/3.0.8/ScrollTrigger.min.js"></script>
   <!--                   AOS                         -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--                  PARTICLES JS                 -->
+  <script type="text/javascript" src="/js/particles.min.js"></script>
+  <script type="text/javascript" src="/js/custom.js"></script>
 
 
 
