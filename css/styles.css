@@ -543,7 +543,7 @@ body.light-theme {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--body-color);
+  background-color: rgba(1, 0, 7.5, 0.809);
   z-index: var(--z-fixed);
   transition: .4s;
 }
@@ -817,7 +817,7 @@ body.light-theme {
   width: 220px;
   border-radius: 5px;
   justify-self: center;
-  /* box-shadow: 6px 6px 6px 3px rgba(7, 6, 24, 0.731); */
+  box-shadow: 6px 6px 6px 3px rgba(7, 6, 24, 0.731);
 }
 
 .about__data {
@@ -1331,11 +1331,11 @@ body.light-theme {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(4, 83, 109);
+  background-color: rgb(0, 23, 31);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(73, 187, 224);
+  background-color: rgb(0, 56, 74);
 }
 
 .shot__p {
