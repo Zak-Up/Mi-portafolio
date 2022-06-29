@@ -932,7 +932,11 @@ body.light-theme {
 }
 
 .services__card {
-  background-image: linear-gradient(to bottom right, rgb(135, 240, 238), rgb(201, 133, 201));
+  background-color: #020108;
+    background-image:
+      radial-gradient(at 0% 0%, rgb(8, 3, 29) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
   padding: 3rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
