@@ -255,75 +255,29 @@ music.loop = true;
     })
   }
 
-/* === SCRIPT VALIDATIONS FORM SUBMIT === --*/
+/*----------===========  MAQUINA EFFECT  =========------------*/ 
+const h1_name = document.getElementById('h1_name');
 
-    
-//     const d = document;
+const maquina = (text = '', tiempo = 200, tag = '') => {
+  let array = text.split('');
+  tag.innerHTML += '';
+  let cont = 0;
+  let escribe = setInterval(function(){
+    tag.innerHTML += array[cont]
+    cont ++
+    if(cont === array.length){
+      clearInterval(escribe);
+    }
+  }, tiempo);
+}
 
-//     function contactForm(){
-//     const $form = d.querySelector(".contact__form"),
-//     $inputs = d.querySelectorAll(".contact__form [required]");
+maquina('Andres Restrepo', 200, h1_name);
 
-//     $inputs.forEach((input) => {
-//         const $span = d.createElement("span");
-//         $span.id = input.name;
-//         $span.textContent = input.title;
-//         $span.classList.add("contact-form-error", "none")
-//         input.insertAdjacentElement("afterend", $span);
-//     });
+/*---------======== SOUND =======------------ */ 
+// function sound(){
+//   let music = new Audio();
 
-//     d.addEventListener("keyup", (e) => {
-//         if(e.target.matches(".contact__form [required]")){
-//             let $input = e.target,
-//             pattern = $input.pattern || $input.dataset.pattern;
-            
-//             if(pattern && $input.value !== ""){
-//                 let regex = new RegExp(pattern);
-//                 return !regex.exec($input.value)
-//                 ? d.getElementById($input.name).classList.add("is-active")
-//                 : d.getElementById($input.name).classList.remove("is-active")
-//             }
+//    music.src='./ann-clue-aerator.mp3';
 
-//             if(!pattern){
-//                 return $input.value === ""
-//                 ? d.getElementById($input.name).classList.add("is-active")
-//                 : d.getElementById($input.name).classList.remove("is-active");
-//             }
-//         }
-//     });
-
-//     d.addEventListener("submit", (e) => {
-//         e.preventDefault();
-//         alert("Enviando formulario");
-
-//         const $loader = d.querySelector(".contact-form-loader"),
-//         $response = d.querySelector(".contact-form-response");
-
-//         $loader.classList.remove("none");
-
-//         fetch("https://formsubmit.co/ajax/andresjr195@hotmail.com", {
-//             method: "POST",
-//             body: new FormData(e.target)
-//         })
-//         .then(res => res.ok ? res.json(): Promise.reject(res))
-//         .then(json => {
-//             console.log(json);
-//             $loader.classList.add("none");
-//             $response.classList.remove("none");
-//             $response.innerHTML = `<p><span>${json.message}<span></p>`;
-//             $form.reset();
-//         })
-//         .catch(err => {
-//             console.log(err);
-//             let message = err.statusText || "Ocurrio un error al enviar";
-//             $response.innerHTML = `<p>Error ${err.status}: ${message}</p>`;
-//         })
-//         .finally(() => setTimeout(() => {
-//             $response.classList.add("none");
-//             $response.innerHTML = "";
-//         }, 2000));
-
-//     })
+//    return music;
 // }
-
-// d.addEventListener("DOMContentLoaded", contactForm)

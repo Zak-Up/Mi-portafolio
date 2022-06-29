@@ -146,7 +146,15 @@ body.light-theme {
 }
 
 .ufo{
-  margin: 0;
+  position: absolute;
+ margin-top: 34rem;
+}
+
+.deezer{
+  color: white;
+  font-size: 28px;
+  height: 28px;
+  width: 28px;
 }
 
 
@@ -168,7 +176,7 @@ body.light-theme {
   width: 10px;
   height: 10px;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid var(--text-color);
 }
 
 .frame div:nth-child(1){
@@ -241,9 +249,16 @@ body.light-theme {
     opacity: 1;
   }
 }
-/* .mainest{
-  margin-bottom: 0.25rem;
-} */
+
+.mainest{
+  position: relative;
+}
+
+.sounds{
+  width: 70px;
+  height: 50px;
+  background-color: transparent;
+}
 
 
 
@@ -634,11 +649,14 @@ body.light-theme {
 }
 
 .home__name {
-  font-size: 22px;
+  display: inline-block;
+  font-size: 23px;
   font-family: 'Press Start 2P';
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
 }
+
 
 .home__img {
   width: 160px;
@@ -681,7 +699,7 @@ body.light-theme {
 }
 
 .home__social {
-  bottom: 10rem;
+  bottom: 18rem;
   left: 10;
   display: grid;
   row-gap: .5rem;
