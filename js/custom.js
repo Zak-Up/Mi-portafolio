@@ -40,7 +40,7 @@ particlesJS("mainest", {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 6,
         "size_min": 0.1,
         "sync": false
       }
@@ -54,7 +54,7 @@ particlesJS("mainest", {
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 0.3,
       "direction": "none",
       "random": false,
       "straight": false,

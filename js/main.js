@@ -134,9 +134,9 @@ const sr = ScrollReveal({
     // reset: true,
 })
 
-sr.reveal(`.home__data`)
+sr.reveal(`.home__data, .con`)
 sr.reveal(`.home__handle`, {delay: 50})
-sr.reveal(`.home__social, .home__scroll, .body__shot, .h6scroll`, {delay: 600, origin: 'bottom'})
+sr.reveal(`.home__social, home__scroll, .body__shot, .h6scroll, .sec`, {delay: 600, origin: 'bottom'})
 
 
 
@@ -234,7 +234,26 @@ enemyGunSound.volume = 0.4;
 var music = new Audio ("music.mp3");
 music.loop = true;
 
-/*----====== GAME SHOT ======-----*/
+
+/*-----======== LAX.JS ==========---- */
+  window.onload = function () {
+    lax.init()
+
+    // Add a driver that we use to control our animations
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
+    // Add animation bindings to elements
+    lax.addElements('.ufo', {
+      scrollY: {
+        translateX: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 'screenWidth/2', 'screenWidth'],
+        ]
+      }
+    })
+  }
 
 /* === SCRIPT VALIDATIONS FORM SUBMIT === --*/
 
