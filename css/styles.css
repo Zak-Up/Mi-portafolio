@@ -817,6 +817,7 @@ body.light-theme {
   width: 220px;
   border-radius: 5px;
   justify-self: center;
+  /* box-shadow: 6px 6px 6px 3px rgba(7, 6, 24, 0.731); */
 }
 
 .about__data {
