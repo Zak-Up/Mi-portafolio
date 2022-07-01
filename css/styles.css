@@ -145,12 +145,12 @@ body.light-theme {
   margin-top: 2rem;
 }
 
-.ufo{
+.ufo {
   position: absolute;
- margin-top: 34rem;
+  margin-top: 34rem;
 }
 
-.cube img{
+.cube img {
   height: 45px;
   width: 45px;
 }
@@ -158,7 +158,7 @@ body.light-theme {
 
 /* ====== FRAME ===== */
 
-.frame{
+.frame {
   position: absolute;
   width: 250px;
   height: 350px;
@@ -169,7 +169,7 @@ body.light-theme {
 
 
 
-.frame div{
+.frame div {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -177,82 +177,86 @@ body.light-theme {
   border: 1px solid var(--text-color);
 }
 
-.frame div:nth-child(1){
+.frame div:nth-child(1) {
   top: 12%;
   left: 42%;
   animation: animate 10s linear infinite;
 }
 
-.frame div:nth-child(2){
+.frame div:nth-child(2) {
   top: 70%;
   left: 50%;
   animation: animate 7s linear infinite;
 }
 
-.frame div:nth-child(3){
+.frame div:nth-child(3) {
   top: 17%;
   left: 6%;
   animation: animate 9s linear infinite;
 }
 
-.frame div:nth-child(4){
+.frame div:nth-child(4) {
   top: 20%;
   left: 60%;
   animation: animate 10s linear infinite;
 }
 
-.frame div:nth-child(5){
+.frame div:nth-child(5) {
   top: 67%;
   left: 10%;
   animation: animate 6s linear infinite;
 }
 
-.frame div:nth-child(6){
+.frame div:nth-child(6) {
   top: 80%;
   left: 70%;
   animation: animate 12s linear infinite;
 }
 
-.frame div:nth-child(7){
+.frame div:nth-child(7) {
   top: 60%;
   left: 80%;
   animation: animate 15s linear infinite;
 }
 
-.frame div:nth-child(8){
+.frame div:nth-child(8) {
   top: 80%;
   left: 70%;
   animation: animate 12s linear infinite;
 }
 
-.frame div:nth-child(9){
+.frame div:nth-child(9) {
   top: 90%;
   left: 25%;
   animation: animate 9s linear infinite;
 }
 
-.frame div:nth-child(10){
+.frame div:nth-child(10) {
   top: 20%;
   left: 80%;
   animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
-  0%{
+  0% {
     transform: scale(0) translateY(0) rotate(0);
     opacity: 1;
   }
-  100%{
+
+  100% {
     transform: scale(1.3) translateY(-90px) rotate(360deg);
     opacity: 1;
   }
 }
 
-.mainest{
+
+
+
+.mainest {
   position: relative;
 }
 
-.sounds{
+.sounds {
   width: 70px;
   height: 50px;
   background-color: transparent;
@@ -549,7 +553,7 @@ body.light-theme {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #1eabff;
+  background-color: #1e29ff;
   width: 10%;
   transition: all 0.2s ease;
 }
@@ -588,7 +592,7 @@ body.light-theme {
   border-radius: 50%;
 }
 
-.player-container{
+.player-container {
   display: flex;
   justify-content: center;
   margin-top: 4rem;
@@ -662,21 +666,21 @@ body.light-theme {
 
 
 /* =============== LANGUAGE ================= */
-.en{
+.en {
   color: #333
 }
 
-.es{
+.es {
   color: #00a1ff
 }
 
-.check{
+.check {
   position: relative;
   width: 36px;
   cursor: pointer;
 }
 
-.check::before{
+.check::before {
   content: '';
   position: absolute;
   width: 36px;
@@ -685,7 +689,7 @@ body.light-theme {
   border-radius: 25px;
 }
 
-.check::after{
+.check::after {
   content: '';
   position: absolute;
   width: 16px;
@@ -697,12 +701,12 @@ body.light-theme {
   box-sizing: border-box;
 }
 
-.check:checked:after{
+.check:checked:after {
   left: 20px;
   border: 2px solid #00a1ff
 }
 
-.check:checked::before{
+.check:checked::before {
   background: #00a1ff;
 }
 
@@ -1014,6 +1018,108 @@ body.light-theme {
   }
 }
 
+/*============== BOXS IMG PERFIL ============*/
+
+.box-imgs {
+  margin-bottom: 20rem;
+}
+
+.wrapper {
+  width: 280px;
+  height: 280px;
+  margin: 15% auto;
+}
+
+.box-area {
+  animation: animate-area 10s ease-in-out infinite;
+  transform-style: preserve-3d;
+  transform-origin: 140px 140px 0;
+}
+
+.box-area div {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  line-height: 280px;
+}
+
+.box-area .box1 {
+  background-image: url(/img/pixlr-bg-gold.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: translateZ(140px);
+}
+
+.box-area .box2 {
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: rotateY(90deg) translateZ(140px);
+}
+
+.box-area .box3 {
+  background-image: url(/img/pixlr-bg-simple2.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: rotateY(90deg) rotateX(90deg) translateZ(140px);
+}
+
+.box-area .box4 {
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(140px);
+}
+
+.box-area .box5 {
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(140px);
+}
+
+.box-area .box6 {
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  transform: rotateX(-90deg) translateZ(140px);
+}
+
+@keyframes animate-area {
+
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  16% {
+    transform: rotateY(-90deg);
+  }
+
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+
+  /* 50%{
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66%{
+    transform: rotateY(-270deg) rotateX(90deg);
+  }
+  83%{
+    transform: rotateX(90deg);
+  } */
+}
+
+
+
+
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 2.5rem;
@@ -1141,10 +1247,10 @@ body.light-theme {
 
 .services__card {
   background-color: rgba(1, 4, 7.5, 0.809);
-    background-image:
-      radial-gradient(at 0% 0%, rgb(8, 3, 29) 0, transparent 50%),
-      radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-      radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+  background-image:
+    radial-gradient(at 0% 0%, rgb(8, 3, 29) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
   padding: 3rem 1.5rem 1.5rem;
   border-radius: 1rem;
 }
@@ -1578,11 +1684,11 @@ body.light-theme {
     height: 120px;
     border-radius: 50%;
     background: linear-gradient(#240C2C, black);
-    box-shadow: inset 0 1em 1em coral;
+    box-shadow: inset 0 1em 1em rgb(36, 22, 165);
   }
 
   .enemy:before {
-    content: " °_° ";
+    content: " 🧿_🧿 ";
     position: absolute;
     width: 100%;
     top: 30px;
@@ -1753,7 +1859,7 @@ body.light-theme {
     margin-bottom: 1rem;
   }
 
- }
+}
 
 
 
@@ -1764,25 +1870,104 @@ body.light-theme {
 @media only screen and (min-device-width: 330px) and (max-device-width : 480px) {
 
   .about__img {
-      margin-left: 4.5rem;
-      margin-bottom: 0;
-    }
+    margin-left: 4.5rem;
+    margin-bottom: 0;
+  }
 
-  .ufo{
+  .ufo {
     display: none;
   }
 
-  .cube{
+  .cube {
     margin-left: 1rem;
   }
 
-  .section__subtitle{
+  .section__subtitle {
     margin-top: 3rem;
   }
 
-  .home{
+  .home {
     margin-left: 1.25rem;
   }
+
+
+  /*============== BOXS IMG PERFIL ============*/
+
+  .box-imgs {
+    margin-bottom: 16rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+
+  .wrapper {
+    width: 200px;
+    height: 200px;
+    margin: 15% auto;
+  }
+
+  .box-area {
+    animation: animate-area 10s ease-in-out infinite;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+  }
+
+  .box-area div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+  }
+
+  .box-area .box1 {
+    background-image: url(/img/perfil4p.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(100px);
+  }
+
+  .box-area .box2 {
+    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(90deg) translateZ(100px);
+  }
+
+  .box-area .box3 {
+    background-image: url(/img/pixlr-bg-result2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+  }
+
+  .box-area .box4 {
+    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+  }
+
+  .box-area .box5 {
+    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+  }
+
+  .box-area .box6 {
+    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+
+
+
   /* ---=== SHOT GAME ===--- */
 
   #gameFrame {
@@ -1802,13 +1987,13 @@ body.light-theme {
 
     width: 80px;
     height: 120px;
-    border-radius: 50%;
-    background: linear-gradient(#240C2C, black);
-    box-shadow: inset 0 1em 1em coral;
+    /* border-radius: 100%; */
+    background: linear-gradient(#0c0f2c, black);
+    box-shadow: inset 0 1em 1em rgb(38, 4, 140);
   }
 
   .enemy:before {
-    content: " °_° ";
+    content: " 🧿_🧿 ";
     position: absolute;
     width: 50%;
     top: 30px;
@@ -1924,7 +2109,7 @@ body.light-theme {
     margin-left: 2rem;
   }
 
-  .mainest{
+  .mainest {
     margin-bottom: 16rem;
   }
 
@@ -1938,14 +2123,13 @@ body.light-theme {
     margin-left: 42%;
     margin-bottom: 2rem;
   }
-  .frame{
+
+  .frame {
     display: none;
   }
 }
 
-@media  screen and (min-width: 450px) {
-  
-}
+@media screen and (min-width: 450px) {}
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
@@ -1970,11 +2154,11 @@ body.light-theme {
     height: 180px;
     border-radius: 50%;
     background: linear-gradient(#240C2C, black);
-    box-shadow: inset 0 1em 1em coral;
+    box-shadow: inset 0 1em 1em rgb(36, 22, 165);
   }
 
   .enemy:before {
-    content: " °_° ";
+    content: " 🧿_🧿 ";
     position: absolute;
     width: 100%;
     top: 30px;
@@ -2176,11 +2360,11 @@ body.light-theme {
     height: 280px;
     border-radius: 100%;
     background: linear-gradient(#240C2C, black);
-    box-shadow: inset 0 1em 1em coral;
+    box-shadow: inset 0 1em 1em rgb(36, 22, 165);
   }
 
   .enemy:before {
-    content: " °_° ";
+    content: " 🧿_🧿 ";
     position: absolute;
     width: 100%;
     top: 50px;
@@ -2364,15 +2548,15 @@ body.light-theme {
     height: 280px;
     border-radius: 100%;
     background: linear-gradient(#240C2C, black);
-    box-shadow: inset 0 1em 1em coral;
+    box-shadow: inset 0 1em 1em rgb(36, 22, 165);
   }
 
   .enemy:before {
-    content: " °_° ";
+    content: " 🧿_🧿 ";
     position: absolute;
     width: 100%;
     top: 50px;
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
     border-top: 20px double rgba(0, 0, 0, .5);
   }
@@ -2413,7 +2597,7 @@ body.light-theme {
     left: 0;
     height: 10px;
     width: 100%;
-    background-color: rgb(0, 225, 225);
+    background-color: rgb(0, 116, 225);
     transition: width .5s;
   }
 
@@ -2422,7 +2606,7 @@ body.light-theme {
     width: 20%;
 
 
-    background-color: rgb(6, 151, 167);
+    background-color: rgb(6, 89, 167);
 
     border: 25;
     box-shadow: none;
