@@ -134,7 +134,7 @@ const sr = ScrollReveal({
     // reset: true,
 })
 
-sr.reveal(`.home__data, .con`)
+sr.reveal(`.home__data, .con,  .player-container`)
 sr.reveal(`.home__handle`, {delay: 50})
 sr.reveal(`.home__social, home__scroll, .body__shot, .h6scroll, .sec`, {delay: 600, origin: 'bottom'})
 
@@ -273,6 +273,10 @@ const maquina = (text = '', tiempo = 200, tag = '') => {
 
 maquina('Andres Restrepo', 200, h1_name);
 
+
+
+
+
 /* =============== LANGUAGE ================= */
 var check = document.querySelector('.check');
 check.addEventListener('click', idioma);
@@ -286,6 +290,50 @@ function idioma(){
     location.href='../index.html'
   }
 }
+
+
+
+
+
+/*----------========== PLAYER ===========------*/ 
+class musicPlayer {
+    constructor() {
+        this.play = this.play.bind(this);
+        this.playBtn = document.getElementById('play');
+        this.playBtn.addEventListener('click', this.play);
+        this.controlPanel = document.getElementById('control-panel');
+        this.infoBar = document.getElementById('info');
+        this.status = false;
+    }
+
+    play() {
+        var audio = document.getElementById('Music'); 
+        let controlPanelObj = this.controlPanel,
+        infoBarObj = this.infoBar
+        Array.from(controlPanelObj.classList).find(function(element){   
+            return element !== "active" ? controlPanelObj.classList.add('active') : controlPanelObj.classList.remove('active');       
+        });
+
+        Array.from(infoBarObj.classList).find(function(element){
+            return element !== "active" ? infoBarObj.classList.add('active') : infoBarObj.classList.remove('active');
+        });
+
+        this.status = !this.status;
+
+        if(this.status == true){
+            audio.play(); 
+        }else{
+            audio.pause();
+        }
+
+
+    }
+
+}
+
+const newMusicPlayer = new musicPlayer();
+
+
 
 /*---------======== SOUND =======------------ */ 
 // function sound(){

@@ -82,7 +82,7 @@ particlesJS("mainest", {
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 30,
         "line_linked": {
           "opacity": 1
         }
