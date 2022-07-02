@@ -271,7 +271,7 @@ body.light-theme {
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
 }
 
@@ -505,6 +505,24 @@ body.light-theme {
 
 
 /*============= PLAYER ===============*/
+
+
+.panel-img {
+  width: 60%;
+  height: 60%;
+}
+
+.player-container {
+  position: fixed;
+  z-index: 99999;
+  right: 30px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-left: 70%;
+}
+
 .player {
   position: relative;
   margin-bottom: 2rem;
@@ -520,7 +538,6 @@ body.light-theme {
   right: 10px;
   background-color: rgba(0, 4, 28, 0.004);
   padding: 5px 30px 5px 110px;
-  border-radius: 15px;
   transition: all 0.5s ease;
 }
 
@@ -553,7 +570,7 @@ body.light-theme {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: #1e29ff;
+  background-color: #0910a0;
   width: 10%;
   transition: all 0.2s ease;
 }
@@ -567,8 +584,9 @@ body.light-theme {
 .player .control-panel {
   position: relative;
   background-color: var(--body-color);
-  border-radius: 15px;
-  width: 280px;
+  border-radius: 3px;
+  margin-left: 7rem;
+  width: 140px;
   height: 70px;
   z-index: 5;
   box-shadow: 2px 2px 2px 1px rgba(1, 11, 22, 0.175);
@@ -576,26 +594,14 @@ body.light-theme {
 
 .player .control-panel .album-art {
   position: absolute;
-  left: 15px;
-  top: -15px;
+  left: 20px;
+  top: 15px;
   height: 70px;
   width: 70px;
   border-radius: 50%;
   box-shadow: 0 20px 20px 5px rgba(12, 0, 0, 0);
   transform: scale(1);
   transition: all 0.5s ease;
-}
-
-.panel-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-.player-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
 }
 
 .player .control-panel .album-art::before {
@@ -1869,6 +1875,17 @@ body.light-theme {
 /* For semimedium devices i shot */
 @media only screen and (min-device-width: 330px) and (max-device-width : 480px) {
 
+  .player-container {
+      position: fixed;
+      z-index: 99999;
+      right: 30px;
+      bottom: 60px;
+      display: flex;
+      justify-content: center;
+      margin-top: 4rem;
+      margin-left: 70%;
+    }
+
   .about__img {
     margin-left: 4.5rem;
     margin-bottom: 0;
@@ -2522,6 +2539,15 @@ body.light-theme {
 
 
   /* ---=== SHOT GAME PRUEBA ===--- */
+    .body__shot {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      font-family: sans-serif;
+      font-weight: bold;
+      border-radius: 1px;
+      box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.8);
+    }
+
   #gameFrame {
     background-color: rgb(0, 1, 9);
     height: 350px;
@@ -2612,7 +2638,7 @@ body.light-theme {
     box-shadow: none;
     position: relative;
     margin: 220px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 
 
