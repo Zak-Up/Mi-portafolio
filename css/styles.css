@@ -1068,7 +1068,7 @@ body.light-theme {
 }
 
 .box-area .box4 {
-  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  background-image: url(/img/pixlr-bg-simple2.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -1076,7 +1076,7 @@ body.light-theme {
 }
 
 .box-area .box5 {
-  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  background-image: url(/img/pixlr-bg-simple2.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -1084,7 +1084,7 @@ body.light-theme {
 }
 
 .box-area .box6 {
-  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+  background-image: url(/img/pixlr-bg-simple2.png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -1390,7 +1390,7 @@ body.light-theme {
 .work__card {
   background-color: var(--container-color);
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   overflow: hidden;
   transition: all 400ms ease;
 }
