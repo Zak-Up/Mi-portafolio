@@ -1050,7 +1050,7 @@ body.light-theme {
 }
 
 .box-area .box1 {
-  background-image: url(/img/pixlr-bg-gold.png);
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -1066,7 +1066,7 @@ body.light-theme {
 }
 
 .box-area .box3 {
-  background-image: url(/img/pixlr-bg-simple2.png);
+  background-image: url(/img/pixlr-bg-result3\ \(1\).png);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -1738,7 +1738,7 @@ body.light-theme {
     left: 0;
     height: 8px;
     width: 100%;
-    background-color: rgb(0, 225, 225);
+    background-color: rgb(0, 90, 225);
     transition: width .5s;
   }
 
@@ -1747,7 +1747,7 @@ body.light-theme {
     width: 20%;
 
 
-    background-color: rgb(6, 151, 167);
+    background-color: rgb(6, 87, 167);
 
     border: 25;
     box-shadow: none;
@@ -1935,53 +1935,53 @@ body.light-theme {
     line-height: 200px;
   }
 
-  .box-area .box1 {
-    background-image: url(/img/perfil4p.png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: translateZ(100px);
-  }
-
-  .box-area .box2 {
-    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) translateZ(100px);
-  }
-
-  .box-area .box3 {
-    background-image: url(/img/pixlr-bg-result2.png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-  }
-
-  .box-area .box4 {
-    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-  }
-
-  .box-area .box5 {
-    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-  }
-
-  .box-area .box6 {
-    background-image: url(/img/pixlr-bg-result3\ \(1\).png);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    transform: rotateX(-90deg) translateZ(100px);
-  }
+    .box-area .box1 {
+      background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: translateZ(140px);
+    }
+  
+    .box-area .box2 {
+      background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: rotateY(90deg) translateZ(140px);
+    }
+  
+    .box-area .box3 {
+      background-image: url(/img/pixlr-bg-result3\ \(1\).png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: rotateY(90deg) rotateX(90deg) translateZ(140px);
+    }
+  
+    .box-area .box4 {
+      background-image: url(/img/pixlr-bg-simple2.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(140px);
+    }
+  
+    .box-area .box5 {
+      background-image: url(/img/pixlr-bg-simple2.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(140px);
+    }
+  
+    .box-area .box6 {
+      background-image: url(/img/pixlr-bg-simple2.png);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center center;
+      transform: rotateX(-90deg) translateZ(140px);
+    }
 
 
 
@@ -2054,7 +2054,7 @@ body.light-theme {
     left: 0;
     height: 8px;
     width: 100%;
-    background-color: rgb(0, 225, 225);
+    background-color: rgb(0, 116, 225);
     transition: width .5s;
   }
 
@@ -2063,7 +2063,7 @@ body.light-theme {
     width: 20%;
 
 
-    background-color: rgb(6, 151, 167);
+    background-color: rgb(6, 78, 167);
 
     border: 25;
     box-shadow: none;
@@ -2219,7 +2219,7 @@ body.light-theme {
     left: 0;
     height: 8px;
     width: 100%;
-    background-color: rgb(0, 225, 225);
+    background-color: rgb(0, 101, 225);
     transition: width .5s;
   }
 
@@ -2228,7 +2228,7 @@ body.light-theme {
     width: 20%;
 
 
-    background-color: rgb(6, 151, 167);
+    background-color: rgb(6, 97, 167);
 
     border: 25;
     box-shadow: none;
@@ -2426,7 +2426,7 @@ body.light-theme {
     left: 0;
     height: 20px;
     width: 100%;
-    background-color: rgb(0, 225, 225);
+    background-color: rgb(0, 116, 225);
     transition: width .5s;
   }
 
@@ -2435,7 +2435,7 @@ body.light-theme {
     width: 20%;
 
 
-    background-color: rgb(6, 151, 167);
+    background-color: rgb(6, 68, 167);
 
     border: 25;
     box-shadow: none;
