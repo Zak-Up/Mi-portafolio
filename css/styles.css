@@ -1644,6 +1644,53 @@ body.light-theme {
   font-size: var(--font-medium);
 }
 
+/* ======== TECHNOLOGIES ICONS ========= */
+.bxl-html5{
+  color: orangered;
+  font-size: 25px;
+}
+.bxl-css3{
+  color: #1720c6;
+  font-size: 25px;
+}
+.bxl-javascript{
+  color: rgb(206, 206, 1);
+  font-size: 25px;
+}
+.bxl-bootstrap{
+  color:rgb(160, 94, 242);
+  font-size: 25px;
+}
+.bxl-nodejs{
+  color: green;
+  font-size: 25px;
+}
+.bxl-react{
+  color: #00a1ff;
+  font-size: 25px;
+}
+.bxl-php{
+  color: #7925e7;
+  font-size: 25px;
+}
+.bxl-python{
+  color: yellowgreen;
+  font-size: 25px;
+}
+.mysql{
+  width: 25px;
+  height: 25px;
+}
+.bxl-github{
+  font-size: 25px;
+}
+.bxl-git{
+  font-size: 25px;
+  color: orangered;
+}
+.bxl-wordpress{
+  font-size: 25px;
+}
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: .6rem;
