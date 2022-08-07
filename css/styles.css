@@ -2057,7 +2057,7 @@ body.light-theme {
   }
 
   .enemy:before {
-    content: " 🧿_🧿 ";
+    content: " o_o ";
     position: absolute;
     width: 50%;
     top: 30px;
